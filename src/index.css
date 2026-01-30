@@ -1,0 +1,31 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+.nav-item {
+  position: relative;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  color: #d1d5db; /* gray-300 */
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: white;
+  size:1rem
+}
+
+.nav-item.active {
+  color: white;
+}
+
+.nav-item.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: #b0cbba; /* green-500 */
+  border-radius: 9999px;
+}
