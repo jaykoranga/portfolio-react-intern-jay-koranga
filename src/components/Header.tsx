@@ -1,13 +1,13 @@
 type headerprops={
      sections:string[],
       activeSection: string,
-      setactiveSection: React.Dispatch<React.SetStateAction<string>>
+     
 }
 
 
 
 
-const Header = ({sections,activeSection,setactiveSection}:headerprops,) => {
+const Header = ({sections,activeSection}:headerprops,) => {
     interface navElement{
         name:string,
         link:string,

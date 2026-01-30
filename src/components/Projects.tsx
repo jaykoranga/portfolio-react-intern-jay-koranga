@@ -6,9 +6,6 @@ import {
     CarouselPrevious,
 } from "./ui/carousel"
 
-import htmlImg from '/html.png'
-import cssImg from '/css.png'
-import javascriptImg from '/javascript.png'
 import { projectData } from "../utility/utility"
 import ProjectCard from './cards/ProjectCard'
 
