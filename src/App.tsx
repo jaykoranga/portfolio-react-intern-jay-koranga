@@ -36,7 +36,7 @@ function App() {
 
   return (
     <>
-      <Header sections={sections} activeSection={activeSection} setactiveSection={setActiveSection}></Header>
+      <Header sections={sections} activeSection={activeSection} ></Header>
       <section id={sections[0]} className=" sections mt-5 md:min-h-screen md:scroll-mt-15 ">
         <Hero></Hero>
       </section  >
